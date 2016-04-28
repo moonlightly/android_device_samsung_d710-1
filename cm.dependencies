@@ -1,7 +1,7 @@
 [
     {
-        "repository": "android_device_samsung_galaxys2-common",
-        "target_path": "device/samsung/galaxys2-common"
+        "repository": "android_device_samsung_senie-common",
+        "target_path": "device/samsung/senie-common"
     },
     {
         "repository": "android_kernel_samsung_smdk4412",

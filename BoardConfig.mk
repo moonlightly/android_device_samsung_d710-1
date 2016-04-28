@@ -16,7 +16,7 @@
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
--include device/samsung/galaxys2-common/BoardCommonConfig.mk
+-include device/samsung/senie-common/BoardCommonConfig.mk
 
 TARGET_BOARD_INFO_FILE := device/samsung/d710/board-info.txt
 
@@ -58,4 +58,4 @@ TARGET_OTA_ASSERT_DEVICE := epic4gtouch,SPH-D710,d710,smdk4210,SPH-D710VMUB,SPH-
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/d710/BoardConfigVendor.mk
 
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/galaxys2-common/shbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/senie-common/shbootimg.mk

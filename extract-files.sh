@@ -19,7 +19,7 @@ DEVICE=d710
 DEVICEOUTDIR=vendor/$VENDOR/$DEVICE
 DEVICEBASE=../../../$DEVICEOUTDIR/proprietary
 DEVICEMAKEFILE=../../../$DEVICEOUTDIR/$DEVICE-vendor-blobs.mk
-COMMONPROPS=../galaxys2-common/proprietary-files.txt
+COMMONPROPS=../senie-common/proprietary-files.txt
 adb root
 adb wait-for-device
 
@@ -107,4 +107,4 @@ DEVICE_PACKAGE_OVERLAYS += vendor/__VENDOR__/__DEVICE__/overlay
 \$(call inherit-product, vendor/__VENDOR__/__DEVICE__/__DEVICE__-vendor-blobs.mk)
 EOF
 
-./../../../device/samsung/galaxys2-common/extract-files.sh
+./../../../device/samsung/senie-common/extract-files.sh
