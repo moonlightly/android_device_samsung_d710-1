@@ -104,7 +104,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.cdma.ppp.interface=ppp0 \
     ro.wimax.interface=uwbr0 \
     net.connectivity.type=CDMA1 \
-    mobiledata.interfaces=ppp0,wlan0,uwbr0 \
+    mobiledata.interfaces=ppp0,uwbr0,rmnet0,rmnet1 \
     ro.telephony.ril_class=SamsungCDMAv6RIL \
     ro.ril.samsung_cdma=true
 
